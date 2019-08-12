@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>How To Make A Website</title>
+    </head>
+
+    <body>
+
+        <!-- Graphic Design -->
+        <style>
+            .color{
+                position: relative;
+                font-family: monospace;
+                color: silver;
+            }
+
+            .ajustemnts{
+                position: relative;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: darkturquoise;
+                text-align: end;
+                font-size: 20px;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border: 1px solid #000;
+                background-color: green;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: rgb(255, 0, 0);
+            }
+
+            li a.active {
+                color: white;
+                background-color: #4CAF50;
+            }
+
+            .font{
+                font-family: monospace;
+                font-size: 35px;
+            }
+
+            .h3 {
+                position: fixed;
+                right: 1000px;
+            }
+
+            .h31 {
+                position: fixed;
+                left: 950px;
+            }
+
+            .pre {
+                position: fixed;
+                bottom: 220px;     
+                right: 900px;    
+                font-size: 16px;      
+            }
+
+            .pre1 {
+                position: fixed;
+                bottom: 220px;
+                left: 750px;
+                font-size: 16px;
+            }
+        </style>
+
+        <!-- Header and navigation -->
+        <header>
+            <nav class="ajustemnents">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="UI UX Design.html">UI/UX Design</a></li>
+                    <li><a href="HTML Design.html">HTML Design</a></li>
+                    <li><a href="Contact.html">Contact</a></li>  
+                </ul>               
+            </nav>
+
+            <div>
+                <h1 class="font">How To Make A Website</h1>
+                <h2 class="color">Tome Kosturanov</h2>
+            </div>
+        </header>
+
+        <section>
+            <img src="Man1.jpg" alt="picture1" width="630" height="330"> 
+            <img src="Man2.jpg" alt="picture2" width="630">
+        </section>
+
+        <!-- Main section of the website -->
+        <main>
+            <h3 class="h3">Front End Development</h3>
+            <h3 class="h31">UI/UX Design</h3>
+
+            <pre class="pre">
+                Here you can learn how to create your own
+                website using HTML and CSS. And learn the
+                basics of HTML.
+            </pre>
+
+            <pre class="pre1">
+                Here you can also learn how to
+                use Adobe Xd and the basics
+                of UI and UX design.
+            </pre>
+        </main>
+    </body>
+</html>
